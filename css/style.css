@@ -3,7 +3,7 @@
 body{
     background-color: rgba(196, 140, 88, 0.274);
     font-family: Helvetica "Helvetica Neue";
-    background-image: url(/img/trippyfender.png);
+    background-image: url(../img/trippyfender.png);
 }
 header h1{
     color: black;
