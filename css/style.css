@@ -1,23 +1,27 @@
 @charset "utf-8";
+
 /* CSS Document */
-body{
+
+body {
     background-color: rgba(196, 140, 88, 0.274);
     font-family: Helvetica "Helvetica Neue";
     background-image: url(../img/trippyfender.png);
 }
-header h1{
+
+header h1 {
     color: black;
     font-size: 85px;
 }
-header{
+
+header {
     background-color: rgba(196, 140, 88, 0.274);
     padding-bottom: 25px;
     text-align: center;
-    justify-items: left;
-    justify-self: left;
+    justify-items: center;
+    justify-self: center;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 250px 250px;
     grid-template-rows: repeat(300px);
@@ -25,38 +29,48 @@ main{
     margin-top: 20px;
     margin-bottom: 180px;
     grid-auto-rows: 50px;
-    justify-items:left;
-    justify-content:border;
-    align-items:stretch;
-    grid-auto-flow:column;
-    align-content:left;
-    grid-auto-rows:500px;
+    justify-items: left;
+    justify-content: border;
+    align-items: stretch;
+    grid-auto-flow: column;
+    align-content: left;
+    grid-auto-rows: 500px;
     padding-bottom: 50px;
 }
-.menu h4{
+
+.menu h4 {
     color: black;
     font-weight: bold;
 }
-.menu h3{
+
+.menu h3 {
     color: black;
     font-weight: bold;
 }
-.menu{
+
+.menu {
     text-align: center;
     margin-bottom: 10px;
 }
 
-footer{
- background-color: grey;
- text-align: center; 
- padding: 10px;  
- color: white;
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
-.eventos{
-    color:black;
+
+footer i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.eventos {
+    color: black;
     font-weight: bold;
     text-align: left;
 }
-.eventos h3{
+
+.eventos h3 {
     font-size: 60px;
 }

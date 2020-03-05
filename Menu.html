@@ -13,10 +13,6 @@
 
 <body>
     <header>
-        <div class="image">
-            <a href="index.html"><img src="./img/kverna-logo-peque.png" alt="logo" class="img-fluid" height="200px" width="250px"></a>
-            <h1>Bienvenidos a la Kverna</h1>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Kverna Bar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +21,11 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a href="index.html"><img src="./img/kverna-logo-peque.png" alt="logo" class="img-fluid" height="0px" width="50px"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ubicacion</a>
@@ -36,19 +35,39 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Bebidas</a>
                             <a class="dropdown-item" href="#">Entradas</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Especialidades</a>
                         </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </nav>
     </header>
+    <div class="container">
+        <div class="row">
+            <article class="col-md-4 col-sm-12 col-xs-12">
+                <h2>Bebidas alcoholicas</h2>
+                <ol class="bebida_alco">
+                    <li>
+                        <h4>Paradise Daiquiri</h4>
+                    </li>
+                    <li>
+                        <h4>Ride the Martini</h4>
+                    </li>
+                    <li>
+                        <h4>Mimosa No.5</h4>
+                    </li>
+                    <li>
+                        <h4>Dirty Beer, Done Dirt Cheap</h4>
+                    </li>
+                    <li>
+                        <h4>Twister Sister</h4>
+                    </li>
+            </article>
+        </div>
+    </div>
 
+    </ol>
     <footer>
         <!--Copyright y Redes Sociales-->
         <p>Kverna 2020. Todos los derechos reservados. Kverna es una marca registrada de Honduras SA</p>
