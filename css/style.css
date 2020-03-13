@@ -1,14 +1,17 @@
 @charset "utf-8";
 
 /* CSS Document */
-
+@font-face {
+	   font-family: "rockfonts";
+	   src: url(../fonts/84_rock.ttf)
+	   }
 header h1 {
     color: black;
     font-size: 85px;
 }
 
 header {
-    background-color: rgba(196, 140, 88, 0.274);
+    background-image: url(../img/Header.png);
     padding-bottom: 25px;
     text-align: center;
     justify-items: center;
@@ -77,4 +80,8 @@ footer i {
 
 #hero {
     background-image: url(/img/background-01.png);
+}
+#forumlario{
+	font-family: "rockfonts";
+	background-image: url(../img/background-01.png);
 }
