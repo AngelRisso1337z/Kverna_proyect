@@ -16,19 +16,12 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: repeat(300px);
-    grid-gap: 200px;
     margin-top: 20px;
     margin-bottom: 180px;
-    grid-auto-rows: 50px;
     justify-items: left;
     justify-content: border;
     align-items: stretch;
-    grid-auto-flow: column;
     align-content: left;
-    grid-auto-rows: 500px;
     padding-bottom: 50px;
 }
 
@@ -60,10 +53,15 @@ footer i {
 }
 
 #eventos {
+    background-color: rgba(255, 165, 82, 0.8);
     padding-left: 45px;
     color: black;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 25px;
 }
 
 #eventos h3 {
