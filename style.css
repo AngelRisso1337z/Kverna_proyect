@@ -1,0 +1,120 @@
+
+body {
+	   font-family: 'Metal Mania', cursive;
+	  
+	   }
+@font-face{
+	font-family: dirtybrush;
+	src: url("../fonts/Dirty Brush.ttf")
+}
+@font-face{
+	font-family: Metal;
+	src: url("../fonts/84_rock.ttf")
+}
+
+
+header {
+    background-image: url(../img/Header.png);
+	background-size: cover;
+    text-align: center;
+	font-family: Metal;
+	
+}
+header a{
+	font-size: 50px;
+	
+}
+header img{
+	padding-top: 0;
+}
+header i{
+	text-align: right;
+	color: #FFA451;
+	
+}
+header i:hover {
+	text-align: right;
+	color: #FFFFFF;
+}
+
+#menu {
+	align-content: center center;
+	padding: 2% 0;
+	background-color: #BA5624;
+}
+
+
+#menu h3 {
+    color: #FFA451;
+	padding: 2% 0 ;
+    text-align: center;
+	font-family: Metal;
+	font-size: 35px;
+}
+#menu h4{
+	text-align: justify;
+	color: #381E2B;
+	font-family: dirtybrush;
+	font-weight: bold;
+}
+#menu h4 span{
+	color: #FFFFFF;
+	font-family: 'Metal Mania', cursive;
+}
+
+
+footer {
+	position: absolute;
+	height: auto;
+	width: 100%;
+    background-color: #381E2B;
+    color: #F38667;
+	padding: 2% 0;
+}
+
+footer i {
+    font-size: 35px;
+	color: #F38667;
+}
+footer i:hover {
+	color: #DD604A;
+}
+
+#eventos {
+    background-image: url("../img/shutterstock_635037602720.jpg");
+	background-size: cover;
+	font-family: Metal;
+}
+
+#eventos h3 {
+    font-size: 60px;
+	color: #381E2B;
+	text-align: center;
+	margin-left: 10%;
+}
+#eventos h3 span{
+    font-size: 60px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 500;
+}
+#eventos .promo{
+	text-align: center;
+	align-content: center;
+}
+#eventos .promo span{
+	text-align: right;;
+	align-content: left;
+}
+#eventos img{
+	padding: 2% 0;
+}
+
+#eventos h2{
+	align-content: center;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	color: #381E2B;
+}
+
