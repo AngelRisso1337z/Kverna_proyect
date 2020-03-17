@@ -2,86 +2,86 @@
 
 /* CSS Document */
 @font-face {
-	   font-family: "rockfonts";
-	   src: url(../fonts/84_rock.ttf)
-	   }
+  font-family: "rockfonts";
+  src: url(../fonts/84_rock.ttf);
+}
 header h1 {
-    color: black;
-    font-size: 85px;
+  color: black;
+  font-size: 85px;
 }
 
 header {
-    background-image: url(../img/Header.png);
-    padding-bottom: 25px;
-    text-align: center;
-    justify-items: center;
-    justify-self: center;
+  background-image: url(../img/Header.png);
+  padding-bottom: 25px;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
 }
 
 main {
-    margin-top: 20px;
-    margin-bottom: 180px;
-    justify-items: left;
-    justify-content: border;
-    align-items: stretch;
-    align-content: left;
-    padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 180px;
+  justify-items: left;
+  justify-content: border;
+  align-items: stretch;
+  align-content: left;
+  padding-bottom: 50px;
 }
 
 #menu h4 {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 #menu h3 {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 #menu {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 footer {
-    background-color: grey;
-    text-align: center;
-    padding: 10px;
-    color: white;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  color: white;
 }
 
 footer i {
-    font-size: 20px;
-    padding-right: 10px;
+  font-size: 20px;
+  padding-right: 10px;
 }
 
 #eventos {
-    background-color: rgba(255, 165, 82, 0.8);
-    padding-left: 45px;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    justify-self: center;
-    justify-content: center;
-    justify-items: center;
-    padding-bottom: 25px;
+  background-color: rgba(255, 165, 82, 0.8);
+  padding-left: 45px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 25px;
 }
 
 #eventos h3 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 #mapa {
-    align-self: center;
-    align-content: center;
-    justify-self: center;
-    background-color: rgba(255, 165, 82, 0.8);
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+  background-color: rgba(255, 165, 82, 0.8);
 }
 
 #hero {
-    background-image: url(/img/background-01.png);
+  background-image: url(/img/background-01.png);
 }
-#forumlario{
-	font-family: "rockfonts";
-	background-image: url(../img/background-01.png);
+#forumlario {
+  font-family: "rockfonts";
+  background-image: url(../img/background-01.png);
 }
