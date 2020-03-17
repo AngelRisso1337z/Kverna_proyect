@@ -12,10 +12,31 @@ header h1 {
 
 header {
   background-image: url(../img/Header.png);
-  padding-bottom: 25px;
   text-align: center;
   justify-items: center;
   justify-self: center;
+}
+
+.image-logo {
+  height: auto;
+  width: 100%;
+}
+
+.navbar-item {
+  font-family: "rockfonts";
+  src: url(../fonts/84_rock.ttf);
+  font-size: 75px;
+}
+
+.li-item{
+    margin-top: 3%;
+}
+
+.social-icon{
+    font-size: 50px;
+    color: #FFa552;
+    margin-left: 5px;
+    margin-top:50%
 }
 
 main {
