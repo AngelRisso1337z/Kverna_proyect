@@ -1,108 +1,120 @@
-@charset "utf-8";
 
-/* CSS Document */
-@font-face {
-  font-family: "rockfonts";
-  src: url(../fonts/84_rock.ttf);
+body {
+	   font-family: 'Metal Mania', cursive;
+	  
+	   }
+@font-face{
+	font-family: dirtybrush;
+	src: url("../fonts/Dirty Brush.ttf")
 }
-header h1 {
-  color: black;
-  font-size: 85px;
+@font-face{
+	font-family: Metal;
+	src: url("../fonts/84_rock.ttf")
 }
+
 
 header {
-  background-image: url(../img/Header.png);
-  text-align: center;
-  justify-items: center;
-  justify-self: center;
+    background-image: url(../img/Header.png);
+	background-size: cover;
+    text-align: center;
+	font-family: Metal;
+	
 }
-
-.image-logo {
-  height: auto;
-  width: 100%;
+header a{
+	font-size: 50px;
+	
 }
-
-.navbar-item {
-  font-family: "rockfonts";
-  src: url(../fonts/84_rock.ttf);
-  font-size: 75px;
+header img{
+	padding-top: 0;
 }
-
-.li-item{
-    margin-top: 3%;
+header i{
+	text-align: right;
+	color: #FFA451;
+	
 }
-
-.social-icon{
-    font-size: 50px;
-    color: #FFa552;
-    margin-left: 5px;
-    margin-top:50%
-}
-
-main {
-  margin-top: 20px;
-  margin-bottom: 180px;
-  justify-items: left;
-  justify-content: border;
-  align-items: stretch;
-  align-content: left;
-  padding-bottom: 50px;
-}
-
-#menu h4 {
-  color: black;
-  font-weight: bold;
-}
-
-#menu h3 {
-  color: black;
-  font-weight: bold;
+header i:hover {
+	text-align: right;
+	color: #FFFFFF;
 }
 
 #menu {
-  text-align: center;
-  margin-bottom: 10px;
+	align-content: center center;
+	padding: 2% 0;
+	background-color: #BA5624;
 }
 
+
+#menu h3 {
+    color: #FFA451;
+	padding: 2% 0 ;
+    text-align: center;
+	font-family: Metal;
+	font-size: 35px;
+}
+#menu h4{
+	text-align: justify;
+	color: #381E2B;
+	font-family: dirtybrush;
+	font-weight: bold;
+}
+#menu h4 span{
+	color: #FFFFFF;
+	font-family: 'Metal Mania', cursive;
+}
+
+
 footer {
-  background-color: grey;
-  text-align: center;
-  padding: 10px;
-  color: white;
+	position: absolute;
+	height: auto;
+	width: 100%;
+    background-color: #381E2B;
+    color: #F38667;
+	padding: 2% 0;
 }
 
 footer i {
-  font-size: 20px;
-  padding-right: 10px;
+    font-size: 35px;
+	color: #F38667;
+}
+footer i:hover {
+	color: #DD604A;
 }
 
 #eventos {
-  background-color: rgba(255, 165, 82, 0.8);
-  padding-left: 45px;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  padding-bottom: 25px;
+    background-image: url("../img/shutterstock_635037602720.jpg");
+	background-size: cover;
+	font-family: Metal;
 }
 
 #eventos h3 {
-  font-size: 60px;
+    font-size: 60px;
+	color: #381E2B;
+	text-align: center;
+	margin-left: 10%;
+}
+#eventos h3 span{
+    font-size: 60px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 500;
+}
+#eventos .promo{
+	text-align: center;
+	align-content: center;
+}
+#eventos .promo span{
+	text-align: right;;
+	align-content: left;
+}
+#eventos img{
+	padding: 2% 0;
 }
 
-#mapa {
-  align-self: center;
-  align-content: center;
-  justify-self: center;
-  background-color: rgba(255, 165, 82, 0.8);
+#eventos h2{
+	align-content: center;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	color: #381E2B;
 }
 
-#hero {
-  background-image: url(/img/background-01.png);
-}
-#forumlario {
-  font-family: "rockfonts";
-  background-image: url(../img/background-01.png);
-}

@@ -8,24 +8,24 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #FFa552;
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #BA5624;
+    color: #ff5518;
 }
 
 .navbar-light .navbar-nav .active .nav-link {
     background-color: transparent;
-    color: #BA5624;
+    color: #ff5518;
 }
 
 .navbar-light .navbar-nav .active .nav-link:hover {
     background-color: transparent;
-    color: #BA5624;
+    color: #ff5518;
 }
 
 .btn-menu {
