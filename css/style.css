@@ -94,12 +94,14 @@ header i:hover {
 
 
 footer {
-	position: absolute;
-	height: auto;
-	width: 100%;
+	position: sticky;
+	left: 0;
+  	bottom: 0;
+  	width: 100%;
     background-color: #381E2B;
     color: #F38667;
-	padding: 2% 0;
+	text-align: center center;
+	padding-bottom: 10px;
 }
 
 footer i {
@@ -116,7 +118,6 @@ footer i:hover {
 	background-size: cover;
 	font-family: Metal;
 }
-
 #eventos h3 {
     font-size: 60px;
 	color: #381E2B;
@@ -160,18 +161,17 @@ footer i:hover {
 	border-radius: 15%;
 }
 #formulario {
-	background-color: #FFA451;
-	align-content: center;
-	padding: 1% 0;
-	background-image: url("../img/background-01.png");
-	background-size: cover;
+	align-content: center center;
+	margin: auto;
+	width: 70%;
+	padding: 20px;
 }
 .btn-light {
 	text-transform: uppercase;
 	font-weight: 500;
 }
 #mapa {
-
+	margin: inherit;
 	border-left: 4px solid #BA5624;
 }
 #hero {
