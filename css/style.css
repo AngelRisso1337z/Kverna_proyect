@@ -186,3 +186,7 @@ footer i:hover {
 	background-color: #FFA451;
 	color: #FFFFFF;
 }
+.list-inline-item{
+	float: right;
+	padding: 20px 5px 10px 10px;
+}
