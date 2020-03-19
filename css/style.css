@@ -1,6 +1,8 @@
 
 body {
 	   font-family: 'Metal Mania', cursive;
+	background-color: #381E2B;
+	  
 	   }
 @font-face{
 	font-family: dirtybrush;
@@ -10,14 +12,26 @@ body {
 	font-family: Metal;
 	src: url("../fonts/84_rock.ttf")
 }
+.titulo-1{
+	font-family: Metal;
+	font-weight: 600;
+	font-size: 35px;
+	color: #381E2B;
+}
+#carousel{
+	background-color: #BA5624;
+}
+
 header {
     background-image: url(../img/Header.png);
 	background-size: cover;
     text-align: center;
-	font-family: Metal;	
+	font-family: Metal;
+	
 }
 header a{
 	font-size: 50px;
+	
 }
 header img{
 	padding-top: 0;
@@ -25,23 +39,21 @@ header img{
 header i{
 	text-align: right;
 	color: #FFA451;
+	margin-top: 2%;
+	
 }
 header i:hover {
 	text-align: right;
 	color: #FFFFFF;
 }
-.list-inline {
-	float: right;
-}
-.list-inline-item {
-	margin: auto;
-	
-}
+
 #menu {
 	align-content: center center;
 	padding: 2% 0;
 	background-color: #BA5624;
 }
+
+
 #menu h3 {
     color: #FFA451;
 	padding: 2% 0 ;
@@ -59,18 +71,39 @@ header i:hover {
 	color: #FFFFFF;
 	font-family: 'Metal Mania', cursive;
 }
+#menu a {
+	align-content: center;
+	text-align: center;
+	margin: 1% 30%;
+	
+}
+#menu .btn-dark {
+	background-color: #381E2B;
+	align-content: center;
+	border: hidden;
+	font-size: 20px;
+	font-family: dirtybrush;
+}
+#menu .btn-dark:hover {
+	background-color: #F38667;
+	align-content: center;
+	border: hidden;
+	font-size: 20px;
+	font-family: dirtybrush;
+}
 
 
 footer {
 	position: absolute;
-	height: 10px;
+	height: auto;
 	width: 100%;
     background-color: #381E2B;
     color: #F38667;
-	padding:1% 1%;
+	padding: 2% 0;
 }
 
 footer i {
+	text-align: right;
     font-size: 35px;
 	color: #F38667;
 }
@@ -115,12 +148,30 @@ footer i:hover {
 	margin-top: 10px;
 	color: #381E2B;
 }
-#forumlario {
-	align-content: center center;
-	margin: auto;
-	width: 60%;
-	padding: 20px;
+#formulario {
+	background-color: #FFA451;
+	align-content: center;
+	padding: 1% 0;
+	background-image: url("../img/background-01.png");
+	background-size: cover;
 }
-.btn {
-	
+.btn-light {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#mapa {
+
+	border-left: 4px solid #BA5624;
+}
+#hero {
+	background-image: url("../img/download.jfif");
+	padding: 2% 0;
+}
+#hero a img{
+	margin: 3%;
+	border: 6px solid #BA5624;
+}
+#bebidas {
+	background-color: #FFA451;
+	color: #FFFFFF;
 }
