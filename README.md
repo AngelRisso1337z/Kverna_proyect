@@ -1,7 +1,7 @@
 # Kverna_proyect
 Projecto de Diseño Web 1 
 
-Este es un Proyecto hecho para la clase de Diseño Web 1, del Ing.Jose Ramos
+Este es un Proyecto hecho para la clase de Diseño Web 1, del Ing.Fernando Ramos
 
 
 "Kverna es un bar tematico, trayendo las memorias del rock y cultura popular.
